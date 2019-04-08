@@ -10,3 +10,9 @@ This is a multi-part exercise:
 
 **Step 3) more content**
 -- be contented
+
+~:~:~
+
+Note: Step 2: 
+
+Old UI: 
