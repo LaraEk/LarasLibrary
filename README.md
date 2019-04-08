@@ -15,4 +15,5 @@ This is a multi-part exercise:
 
 Note: Step 2: 
 
-Old UI: 
+Old UI: Page One: <img src="http://i66.tinypic.com/2w1v3p3.png" height="200px" alt="page one of old UI"/>
+Old UI: Page Two: <img src="http://i63.tinypic.com/20l1koy.png" height="200px" alt="page two of old UI" />
