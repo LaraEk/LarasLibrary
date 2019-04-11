@@ -1,0 +1,46 @@
+@keyframes bgcolor {
+  0% {
+    background-color: #581845;
+  }
+
+  30% {
+    background-color: #900c3f;
+  }
+
+  60% {
+    background-color: #c70039;
+  }
+
+  90% {
+    background-color: #ff5733;
+  }
+
+  100% {
+    background-color: #ffc300;
+  }
+}
+
+.btn {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 20s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  border: 1px solid #b7b7b8;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    #16151d,
+    #292638
+  );
+}
+
+.jumbotron {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(41, 38, 56),
+    rgb(22, 21, 29)
+  );
+  color: #f9f8fc;
+}
