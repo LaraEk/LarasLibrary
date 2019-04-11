@@ -24,8 +24,11 @@
   </head>
   <body>
     <div class="jumbotron">
-      <h1>Express Library</h1>
-      <h3>Books Books Books!</h3>
+      <h2>Lara's Reading List</h2>
+      <h4>
+        A Work-In-Progress practice app meant to eventually showcase her
+        readinglist from the last few years
+      </h4>
       <hr />
       <a href="/" class="btn btn-danger btn-lg"
         ><span class="fa fa-eye"></span> Search Books</a
@@ -57,7 +60,7 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Collapsible Group Item #1
+                    <strong>Book Search</strong>
                   </button>
                 </h5>
               </div>
@@ -69,17 +72,13 @@
                 data-parent="#accordion"
               >
                 <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life
-                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                  non cupidatat skateboard dolor brunch. Food truck quinoa
-                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                  aliqua put a bird on it squid single-origin coffee nulla
-                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                  beer labore wes anderson cred nesciunt sapiente ea proident.
-                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                  beer farm-to-table, raw denim aesthetic synth nesciunt you
-                  probably haven't heard of them accusamus labore sustainable
-                  VHS.
+                  <input type="text" id="book-search" class="form-control" />
+                  <br />
+                  <div class="text-right">
+                    <button class="btn btn-primary btn-md" id="search-btn">
+                      <span class="fa fa-search"></span> Search
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -93,7 +92,7 @@
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Collapsible Group Item #2
+                    <strong>Author Search</strong>
                   </button>
                 </h5>
               </div>
@@ -104,17 +103,16 @@
                 data-parent="#accordion"
               >
                 <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life
-                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                  non cupidatat skateboard dolor brunch. Food truck quinoa
-                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                  aliqua put a bird on it squid single-origin coffee nulla
-                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                  beer labore wes anderson cred nesciunt sapiente ea proident.
-                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                  beer farm-to-table, raw denim aesthetic synth nesciunt you
-                  probably haven't heard of them accusamus labore sustainable
-                  VHS.
+                  <input type="text" id="author-search" class="form-control" />
+                  <br />
+                  <div class="text-right">
+                    <button
+                      class="btn btn-primary btn-md"
+                      id="author-search-btn"
+                    >
+                      <span class="fa fa-search"></span> Search
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -128,7 +126,7 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Collapsible Group Item #3
+                    <strong>Genre Search</strong>
                   </button>
                 </h5>
               </div>
@@ -139,24 +137,25 @@
                 data-parent="#accordion"
               >
                 <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life
-                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                  non cupidatat skateboard dolor brunch. Food truck quinoa
-                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                  aliqua put a bird on it squid single-origin coffee nulla
-                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                  beer labore wes anderson cred nesciunt sapiente ea proident.
-                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                  beer farm-to-table, raw denim aesthetic synth nesciunt you
-                  probably haven't heard of them accusamus labore sustainable
-                  VHS.
+                  <input type="text" id="genre-search" class="form-control" />
+                  <br />
+                  <div class="text-right">
+                    <button
+                      class="btn btn-primary btn-md"
+                      id="genre-search-btn"
+                    >
+                      <span class="fa fa-search"></span> Search
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <!--finish div for col-4-->
 
-          <!-- OLD STUFF -->
-          <div class="card mb-4">
+        <!-- OLD STUFF -->
+        <!-- <div class="card mb-4">
             <div class="card-header">
               <h3 class="card-title"><strong>Book Search</strong></h3>
             </div>
@@ -199,8 +198,7 @@
                 </button>
               </div>
             </div>
-          </div>
-        </div>
+          </div> -->
 
         <!-- DISPLAY AREA -->
         <div class="col-lg-8">

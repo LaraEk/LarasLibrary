@@ -1,8 +1,13 @@
 @import "./colors.scss";
 
 /* GLOBALS */
+html {
+  height: 100%;
+}
+
 body {
   background-image: linear-gradient(to bottom right, #3a3a4e, #16151d);
+  height: 100%;
 }
 
 @keyframes bgcolor {
@@ -27,22 +32,42 @@ body {
   }
 }
 
-/* OVERRIDES */
+/* OVERRIDES and ADJUSTMENTS to Bootstrap */
 .btn {
   -webkit-animation: bgcolor 20s infinite;
   animation: bgcolor 20s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
   border: 1px solid #f9f8fc;
+  color: #f9f8fc;
+}
+
+.btn-lg {
+  font-size: 1.05em;
+  padding: 0.3em 0.6em;
+  margin: 0.1em;
+  color: #f9f8fc;
 }
 
 .jumbotron {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom right,
     rgb(41, 38, 56),
     rgb(22, 21, 29)
-  );
-  color: $test;
+  ); */
+  color: #f9f8fc;
+  background: url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAS0lEQVQoU2NkwAJ8fOL/b9mykBFZCoUDkoApQlcMVwiSAClENglZMVghNqvQxRlxKYK5DyZPUCHMZLxWI1tPmmeQw4tg8GBTjCwGALYTRgE2GLW6AAAAAElFTkSuQmCC
+     )
+    repeat;
+}
+
+.card {
+  background-color: #3a3a4e;
+  color: #f9f8fc;
+}
+
+.card-header {
   background: url(
     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAS0lEQVQoU2NkwAJ8fOL/b9mykBFZCoUDkoApQlcMVwiSAClENglZMVghNqvQxRlxKYK5DyZPUCHMZLxWI1tPmmeQw4tg8GBTjCwGALYTRgE2GLW6AAAAAElFTkSuQmCC
      )
