@@ -1,39 +1,39 @@
+@import "./colors.scss";
+
+/* GLOBALS */
+body {
+  background-image: linear-gradient(to bottom right, #3a3a4e, #16151d);
+}
+
 @keyframes bgcolor {
   0% {
-    background-color: #581845;
+    background-color: #16151d;
   }
 
   30% {
-    background-color: #900c3f;
+    background-color: #292638;
   }
 
   60% {
-    background-color: #c70039;
+    background-color: #4c4c5f;
   }
 
   90% {
-    background-color: #ff5733;
+    background-color: #292638;
   }
 
   100% {
-    background-color: #ffc300;
+    background-color: #16151d;
   }
 }
 
+/* OVERRIDES */
 .btn {
   -webkit-animation: bgcolor 20s infinite;
   animation: bgcolor 20s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
-  border: 1px solid #b7b7b8;
-}
-
-body {
-  background-image: linear-gradient(
-    to bottom right,
-    #16151d,
-    #292638
-  );
+  border: 1px solid #f9f8fc;
 }
 
 .jumbotron {
@@ -42,5 +42,9 @@ body {
     rgb(41, 38, 56),
     rgb(22, 21, 29)
   );
-  color: #f9f8fc;
+  color: $test;
+  background: url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAS0lEQVQoU2NkwAJ8fOL/b9mykBFZCoUDkoApQlcMVwiSAClENglZMVghNqvQxRlxKYK5DyZPUCHMZLxWI1tPmmeQw4tg8GBTjCwGALYTRgE2GLW6AAAAAElFTkSuQmCC
+     )
+    repeat;
 }
