@@ -6,10 +6,14 @@ This is a multi-part exercise:
 ---- building a simple CRUD app with node, express, sequelize, and mysql.
 
 **Step 2) make its UI more appealing**
----- make it look more interesting.
+---- make it look more interesting & be useful.
 
-**Step 3) more content**
--- be contented
+**Step 3) add more content and functionality**
+---- make it more interesting: add those metrics that I like to note in my own reading
+
+**Step 4) revamp UI again to match new content & functionality**
+---- make it pretty & useful
+
 
 ~:~:~
 
@@ -20,3 +24,6 @@ Old UI: Page One:
 
 Old UI: Page Two: 
 <img src="http://i63.tinypic.com/20l1koy.png" height="200px" alt="page two of old UI" />
+
+Step Two: Updated UI: 
+<img src="http://i68.tinypic.com/oksvvk.png" height="200px" alt="Step Two version of UI" />
